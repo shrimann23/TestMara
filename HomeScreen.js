@@ -21,15 +21,3 @@ class HomeScreen extends React.Component {
 }
 
 export default HomeScreen;
-
-// const HomeScreen = ({ navigation }) => {
-//     return (
-//         <View>
-//             <Button
-//                 title="Go to Audio Screen"
-//                 onPress={() => navigation.navigate('AudioScreen')}
-//             />
-//         </View>
-//     );
-// };
-

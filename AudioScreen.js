@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
+import TrackPlayer from 'react-native-track-player';
 
 class AudioScreen extends React.Component {
     render() {
@@ -14,12 +15,3 @@ class AudioScreen extends React.Component {
 }
 
 export default AudioScreen;
-
-// const AudioScreen = () => {
-//     return (
-//         <View>
-//             <Text>This is the audio screen!</Text>
-//             <Text>Under construction!</Text>
-//         </View>
-//     );
-// };
