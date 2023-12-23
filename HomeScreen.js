@@ -11,6 +11,10 @@ class HomeScreen extends React.Component {
                     title="Go to Audio Screen"
                     onPress={() => navigation.navigate('AudioScreen')}
                 />
+                <Button
+                    title="Go to Video Screen"
+                    onPress={() => navigation.navigate('VideoScreen')}
+                />
             </View>
         );
     }

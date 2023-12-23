@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './HomeScreen'; 
 import AudioScreen from './AudioScreen';
+import VideoScreen from './VideoScreen';
 
 const Stack = createStackNavigator();
 
@@ -29,6 +30,7 @@ const App = () => {
          <Stack.Navigator initialRouteName="Home">
            <Stack.Screen name="Home" component={HomeScreen} />
            <Stack.Screen name="AudioScreen" component={AudioScreen} />
+           <Stack.Screen name="VideoScreen" component={VideoScreen} />
          </Stack.Navigator>       
       </NavigationContainer>
   );
