@@ -7,7 +7,7 @@ class VideoScreen extends React.Component {
 
         return (
             <View>
-                <Text>Welcome to the video page!</Text>
+                <Text>Welcome to our video page!</Text>
             </View>
         );
     }
